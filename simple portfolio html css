@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+    <style>
+      /* Add styles for the website here */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header {
+        background-color: lightgray;
+        padding: 30px;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      section {
+        padding: 20px;
+      }
+      .projects {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .project {
+        width: 33.33%;
+        padding: 20px;
+        text-align: center;
+      }
+      .project img {
+        max-width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Portfolio</h1>
+      <p>Welcome to my portfolio website, showcasing my projects and experience.</p>
+    </header>
+    <section>
+      <h2>My Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>Project 1</h3>
+          <img src="project1.png" alt="Project 1">
+          <p>Description of Project 1 goes here.</p>
+        </div>
+        <div class="project">
+          <h3>Project 2</h3>
+          <img src="project2.png" alt="Project 2">
+          <p>Description of Project 2 goes here.</p>
+        </div>
+        <div class="project">
+          <h3>Project 3</h3>
+          <img src="project3.png" alt="Project 3">
+          <p>Description of Project 3 goes here.</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
